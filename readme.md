@@ -1,3 +1,22 @@
-# Título
+Interactive Element (If/Else) descriptive report
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod convallis magna ut pulvinar. Nulla iaculis, metus in semper vestibulum, lorem quam fringilla tellus, eu varius leo dui ac neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus ultrices ante, ut suscipit est euismod ut. Duis sit amet dictum turpis. Fusce non turpis porta nisi iaculis eleifend. Donec eget lobortis risus. Proin molestie tincidunt elit. Donec a enim ac neque tristique molestie. Sed nibh massa, dignissim at ipsum non, volutpat aliquam erat. Sed tincidunt quis urna a semper. Phasellus leo orci, imperdiet et ullamcorper non, finibus eu nunc. Duis vel ligula ac orci tincidunt aliquam. Suspendisse potenti. Sed congue lectus at aliquet cursus. 
+Description of the Interactive Element:
+- The chosen element is an interactive geometric face. 
+- The colors of the composition change based on where the cursor is located on the screen, while the mouth opens or closes when the mouse is clicked.
+Technical Implementation
+
+AI Prompts Used: 
+- Add an arc under the two circles proportionate to the dimensions of the canvas and the circles
+- Code for the pastel pink background color (255,182,193)
+- Code for the light blue (0,191,255)
+- Flip the arc if mouseispressed so it creates an open mouth
+
+Mouse Position (Colors): 
+- The ⁠if/else⁠ conditions check ⁠mouseX⁠ and ⁠mouseY⁠ relative to the center of the canvas (⁠width/2⁠ and ⁠height/2⁠). 
+- Depending on the quadrant the mouse is in, a different fill color is applied.
+ Mouse Click (Mouth): 
+- The ⁠if (mouseIsPressed)⁠ condition modifies the parameters of the ⁠arc()⁠ function, switching from an angle of 0-PI (open mouth) to an angle of PI-TWO_PI (closed mouth).
+  
+Concept
+- Conditional logic transforms a simple static drawing into a reactive figure. 
+- The user has direct control over the shapes: movement and clicking immediately alter the expression and aesthetics of the artwork, creating a dynamic visual experience.
